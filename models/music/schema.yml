@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: music_source
+    description: "Base de données music importée depuis S3"
+    database: MUSIC
+    schema: PUBLIC
+    tables:
+      - name: ALBUM
+      - name: ARTIST
+      - name: TRACK
+      - name: GENRE
+      - name: PLAYLIST
+      - name: PLAYLISTTRACK
+      - name: MEDIATYPE

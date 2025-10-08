@@ -34,3 +34,10 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+      +tags:
+          - tag_random
+
+seeds:
+  demo_dbt:
+    +schema: PUBLIC
+    +quote_columns: false

@@ -19,3 +19,17 @@ models:
         data_tests:
           - unique
           - not_null
+
+  - name: my_first_join
+    description: "A starter dbt model"
+    columns:
+      - name: name
+        tests:
+          - switzerland
+
+  - name: COVID19_Epidemiological_Data_APPLE_MOBILITY
+    description: "A starter dbt model"
+    columns:
+      - name: country_region
+        tests:
+          - switzerland
